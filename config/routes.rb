@@ -1,15 +1,22 @@
 Dreamkeeper::Application.routes.draw do
-  get "pages/home"
+  resources :contacts
 
-  get "pages/goat"
 
-  get "pages/jewelry"
+  root :to => 'pages#home'
 
-  get "pages/fiber"
+  match "pages/home", to: "pages#home"
 
-  get "pages/locations"
+  match "pages/goat", to: "pages#goat"
 
-  get "pages/pictures"
+  match "pages/jewelry", to: "pages#jewelry"
+
+  match "pages/fiber", to: "pages#fiber"
+
+  match "pages/locations", to: "pages#locations"
+
+  match "pages/pictures", to: "pages#pictures"
+  
+  match "/contacts", to: "contacts#new"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
