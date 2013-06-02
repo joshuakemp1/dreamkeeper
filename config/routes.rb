@@ -4,19 +4,19 @@ Dreamkeeper::Application.routes.draw do
 
   root :to => 'pages#home'
 
-  match "pages/home", to: "pages#home"
+  match "home", to: "pages#home"
 
-  match "pages/goat", to: "pages#goat"
+  match "goat", to: "pages#goat"
 
-  match "pages/jewelry", to: "pages#jewelry"
+  match "jewelry", to: "pages#jewelry"
 
-  match "pages/fiber", to: "pages#fiber"
+  match "fiber", to: "pages#fiber"
 
-  match "pages/locations", to: "pages#locations"
+  match "locations", to: "pages#locations"
 
-  match "pages/pictures", to: "pages#pictures"
+  match "pictures", to: "pages#pictures"
   
-  match "/contacts", to: "contacts#new"
+  match "contacts", to: "contacts#new"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
