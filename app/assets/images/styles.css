@@ -1,0 +1,331 @@
+/* THIS IS FOR ALL UNIVERSAL STYLES THAT DON'T CHANGE DEPENDING UPON TEXT SIZE */
+body 
+{
+	background-color: #666666;
+	margin: 5px;
+}
+A 
+{
+	text-decoration: none;
+	color: #0068FF;
+}
+A:link 
+{
+}
+A:visited 
+{
+}
+A:hover 
+{
+	color:red;
+	text-decoration: underline;
+}
+
+/* STYLES FOR THE HEADER ELEMENTS */
+.Header_Top
+{
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;	
+}
+.Header_Address
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color: #4b6d9d;
+}
+.Header_Search
+{
+	font-family : verdana;
+	font-size: 9px;
+	background-color: #A1B3CB;
+	border: solid 1px #ECF1F5;
+	height: 16px;
+	color: white;
+}
+.Header_Date
+{
+	font-family: "Palatino Linotype";
+	font-size: 12px;
+	color: #336699;
+}
+.TextSize_Cell
+{
+	background-color: #A1B2CC;
+}
+
+
+/* STYLES FOR THE LEFT AND RIGHT NAVIGATION LINKS */
+.LeftNavigation_LinksCell
+{
+	padding: 12px;
+}
+.LeftNavigation_LinksCell A
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #E5EAF1;
+	text-decoration: none;
+	font-weight: bold;
+}
+.LeftNavigation_BannerCell
+{
+	text-align: center;
+	background-color: White;
+	padding-top: 3px;
+}
+.LeftNavigation_LinksCell A:Hover
+{
+	color: #003366;
+	text-decoration: none;
+}
+A.LeftNavigation_LinksCell_Selected 
+{
+	color: #003366;
+	text-decoration: none;
+}
+
+.RightNavigation
+{
+	background-color: #D3DCE7;
+}
+.RightNavigation_LinksCell
+{
+	padding: 12px;
+}
+.RightNavigation_BannerCell
+{
+	text-align: center;
+	background-color: White;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.RightNavigation_LinksCell A
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #6E89B1;
+	text-decoration: none;
+	font-weight: bold;
+}
+.RightNavigation_LinksCell A:Hover
+{
+	color: #003366;
+	text-decoration: none;
+}
+A.RightNavigation_LinksCell_Selected 
+{
+	color: #003366;
+	text-decoration: none;
+}
+A.RightNavigation_LinksCell_Sub 
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #6E89B1;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+
+/* STYLES FOR THE BREADCRUMB */
+.Breadcrumb
+{
+}
+.Breadcrumb A
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #6E89B1;
+	text-decoration: none;
+	font-weight: normal;	
+}
+
+
+/* STYLES FOR JUST THE HOME PAGE */
+.HomePage_News
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.HomePage_Join
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #DFEBE1;
+	border: solid 1px #76A57B;
+	height: 16px;
+	color: #76A57B;
+}
+.HomePage_DropDown
+{
+	width: 100%;
+	margin-bottom: 3px;
+	background-color: #DFEBDF;
+	border: solid 1px #ECF1F5;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+.HomePage_Featured
+{
+	font-family: "Palatino Linotype";
+	color: #336699;
+	font-size: 20px;	
+}
+.HomePage_FeaturedColumn
+{
+}
+.HomePage_LeftNavigation
+{
+	padding: 8px;
+	background-color: #92A7C4;
+}
+.HomePage_LeftNavigation A
+{
+	text-decoration: none;
+	color: White;
+}
+.HomePage_RightNavigation
+{
+	padding: 8px;
+	background-color: #E5EAF1;
+}
+.HomePage_RightNavigation A
+{
+	text-decoration: none;
+	color: blue;
+}
+
+
+
+/* STYLES FOR THE CONTENT SECTION */
+.Content_Body
+{
+	padding-left: 8px;
+	padding-right: 8px;
+	background-color: #FFFFFF;
+}
+.Content_Title
+{
+	font-weight: bold;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: #336699;
+}
+.Content_SectionHeader
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-color: #A1B2CC;	
+	color: White;
+	width: 100%;
+}
+.Content_Label
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: #335585;
+	font-weight: bold;
+}
+.Content_Label_Large
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: #335585;
+	font-weight: bold;
+}
+.Content_Text
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.Content_FormLabel_Req
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: #335585;
+	font-weight: bold;	
+}
+.Content_FormLabel
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: #335585;
+	font-weight: bold;	
+}
+.Content_Error
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: Red;
+	background-color: #ffffcc;	
+	text-align: left;
+}
+
+/* STYLES FOR THE POLL USER CONTROL */
+.Poll_Cell
+{
+	background-color: #92A7C4;
+	padding: 8px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: White;
+ }
+.Poll_Answer
+{
+	padding-top: 4px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: White;
+ }
+.Poll_Result
+{
+	padding-bottom: 6px;
+	padding-top: 2px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color: White;
+ }
+
+/* Styles for Calendar */
+.HomePage_Calendar_DateWithNoEvents
+{
+}
+.HomePage_Calendar_DateWithNoEvents A
+{
+
+	color: Black;	
+	text-decoration: none;
+}
+.HomePage_Calendar_DateWithEvents
+{
+	background: #ededed;
+	border: solid 1px #dbdbdb;
+}
+.HomePage_Calendar_DateWithEvents A
+{
+	color: blue;
+	font-weight:bold;
+	text-decoration: none;
+}
+.DateWithEvents
+{
+	background: #ededed;
+	border: solid 1px #dbdbdb;
+}
+.DateWithEvents A
+{
+	text-decoration: none; 
+}
+
+
+.FooterBox
+{
+	background-color: #92A7C4;
+}
+.Footer
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	color: White;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.Footer A
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 9px;
+	color: White;
+	font-weight: bold;
+	text-decoration: none;
+}

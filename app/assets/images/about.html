@@ -1,0 +1,142 @@
+<!doctype html public "-//ietf//dtd html//en//3.0">
+
+<html>
+
+<head><title>Dream Keeper-1</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body background="graphics/stars.gif" text="#C0C0C0" link="#F9CE06" bgcolor="#000000" alink="#F9CE06" vlink="#F9CE06" onload="FP_preloadImgs(/*url*/'button5.jpg', /*url*/'button6.jpg', /*url*/'buttonB.jpg', /*url*/'buttonC.jpg', /*url*/'button23.jpg', /*url*/'button24.jpg', /*url*/'button29.jpg', /*url*/'button2A.jpg', /*url*/'button2C.jpg', /*url*/'button2D.jpg', /*url*/'button41.jpg', /*url*/'button42.jpg')">
+
+<br>
+
+<br>
+
+<center>
+
+<img src="graphics/welcome.jpg" alt="Welcome to Dream Keeper" border="0" width="599" height="168">
+
+
+<table bgcolor="#000000" background="graphics/stars.gif" width="979">
+	<tr>
+		<td valign=top width="258">&nbsp;<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p><a href="about.html">
+		<img border="0" id="img1" src="button4.jpg" height="36" width="180" alt="HOME" fp-style="fp-btn: Border Bottom 2; fp-font-style: Bold" fp-title="HOME" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button4.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button6.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button5.jpg')"></a></p>
+		<p><a href="Goat%20Milk%20Products.html">
+		<img border="0" id="img3" src="buttonA.jpg" height="36" width="180" alt="GOAT MILK PRODUCTS" fp-style="fp-btn: Border Bottom 2; fp-font-style: Bold" fp-title="GOAT MILK PRODUCTS" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttonB.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttonA.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'buttonC.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'buttonB.jpg')"></a></p>
+		<p><a href="jewelry.html">
+		<img border="0" id="img4" src="button22.jpg" height="36" width="180" alt="JEWELRY" fp-style="fp-btn: Border Bottom 2; fp-font-style: Bold" fp-title="JEWELRY" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button23.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button22.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button24.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button23.jpg')"></a></p>
+		<p><a href="sculpture.html">
+		<img border="0" id="img5" src="button28.jpg" height="36" width="180" alt="FIBERY STUFF" fp-style="fp-btn: Border Bottom 2; fp-font-style: Bold" fp-title="FIBERY STUFF" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'button29.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button28.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'button2A.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'button29.jpg')"></a></p>
+		<p><a href="wycfu.htm">
+		<img border="0" id="img6" src="button2B.jpg" height="36" width="180" alt="WHERE YOU CAN FIND US" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button2C.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button2B.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button2D.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button2C.jpg')" fp-style="fp-btn: Border Bottom 2; fp-font-style: Bold" fp-title="WHERE YOU CAN FIND US"></a></p>
+		<p><a href="miscellaneous.htm">
+		<img border="0" id="img8" src="button40.jpg" height="36" width="180" alt="PICTURES" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'button41.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'button40.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'button42.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'button41.jpg')" fp-style="fp-btn: Border Bottom 2; fp-font-style: Bold" fp-title="PICTURES"></a></p>
+		<b>
+
+		<font face="Arial" size="5" color="#C0C0C0"> <p>  &nbsp;<p>  
+
+
+		</font>
+
+
+</b>
+
+</td>
+		<td>
+
+<br><center>
+
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center"><b><font size="5" face="Verdana" color="#33CC33">Welcome to 
+Dream Keeper Farms Website</font><font size="5" color="#33CC33">!</font></b></p>
+<p align="center">
+<img border="0" src="KCHayGoatPile%20(3).JPG" width="555" height="379"></p>
+<p align="center"><font color="#33CC33"><b><font face="Verdana">At Dream Keeper 
+Farm one thing remains constant...this</font></b></font><font  face="Verdana" size="3 "><b><font color="#33CC33"> 
+is the place where our dreams have come true! </font> </p>
+
+<p>
+
+
+
+<font color="#33CC33">We offer , goat milk lotions, creams, soaps and bath 
+items, herbal products for home and body, jewelry and eggs for sale,&nbsp; hand spinning and 
+fiber projects , raw hand milked goat milk currently labeled &quot;not for human 
+consumption&quot;.</font><p>
+
+
+
+&nbsp;<p>
+
+
+
+<font color="#33CC33">If there is something you think we can help you with just 
+let us know!!!</font></b></font><p>&nbsp;</p>
+<p><b><font color="#33CC33" size="5">John, Dina, Kaycie, Becky & Amanda <br>
+
+<br>
+
+Orlean, Virginia  20115 <br>
+
+<br>
+
+(540)364-4811 </font></b>
+</p>
+<p><b><a href="mailto:professorbubbles@yahoo.com?subject=website"><font color="#FF00FF">Email 
+Us</font> </a></b></p>
+<p><b> <br>
+
+
+
+</b>
+
+<img src="graphics/linecom.gif" alt="bar" border="0" width="500" height="25">
+
+</p>
+<p>&nbsp;<center>
+<a href="http://pets.groups.yahoo.com/group/Dreamkeeperfarm/join">
+<img src="http://us.i1.yimg.com/us.yimg.com/i/yg/img/i/us/ui/join.gif" border="0"
+  alt="Click here to join Dreamkeeperfarm"><br>Click to join Dreamkeeperfarm</a>
+</center>
+
+</p>
+
+</center>
+
+<p align="center">
+
+
+
+</td>
+</tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+.Header_TextSize
+{
+	color: White;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+.Breadcrumb
+{
+	font-size : 10px;
+}
+.Breadcrumb a
+{
+	font-size : 10px;
+}
+
+.HomePage_TextSize
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color: #ffffff;
+}
+.HomePage_CenterPictureTitle
+{
+	border: solid 1px #879aba;
+	background-color: #e5EAF0;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color: Blue;
+}
+.HomePage_SubSection_News
+{
+	background-color: #FEFEFC;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+.HomePage_SubSection_Featured
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+}
+.HomePage_SubSection_Link A
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color: #0166FE;
+}
+.Poll_Cell
+{
+	font-size : 10px;
+ }
+.Poll_Answer
+{
+	font-size : 10px;
+ }
+.Poll_Result
+{
+	font-size : 10px;
+}
+ .Content_Body
+ {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;	
+ }
+ .Content_Body input
+ {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;	
+ }
+ .Content_Body select
+ {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;	
+ }
+ .Content_Body textarea
+ {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;	
+ }
+TD
+{
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;	
+}
+.Content_Error
+{
+	font-size : 10px;
+}
+.Content_Text
+{
+	font-size : 10px;
+}
+.Content_Label
+{
+	font-size : 10px;
+}
+.Content_Label_Large
+{
+	font-size : 14px;
+}
+.Content_Title
+{
+	font-size : 14px;
+}
+.Content_SectionHeader
+{
+	font-size : 12px;	
+}
