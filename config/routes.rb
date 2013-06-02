@@ -1,4 +1,16 @@
 Dreamkeeper::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/goat"
+
+  get "pages/jewelry"
+
+  get "pages/fiber"
+
+  get "pages/locations"
+
+  get "pages/pictures"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
