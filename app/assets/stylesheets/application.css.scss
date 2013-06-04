@@ -30,6 +30,15 @@ $darkGrayish: #262626;
 
 /* universal */
 
+
+.all_images {
+   
+   img {
+    border-radius: 20px;
+   } 
+}
+
+
 html {
   overflow-y: scroll;
 }
@@ -57,6 +66,8 @@ textarea {
 }
 
 /* typography */
+
+
 
 .fiber_image_1 {
     img {
