@@ -9,14 +9,6 @@ body {
   line-height: 18px;
 }
 
-.bulletpoint_1 {
-  text-align: center;
-  color: #81BF0C;
-  &:hover { 
-    color: #FDD400;
-    text-decoration: none;
-  }
-}
 
 .bulletpoint_2 {
   text-align: center;
@@ -28,22 +20,9 @@ body {
 }
 
 
-
-
 .logo {
   text-align: center;
 }
-
-.logo_2 {
-  text-align: center;
-  img {
- 
-  border-radius: 20px;
-    }
-
-}
-
-
 
 
 h1 {
