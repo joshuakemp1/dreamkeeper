@@ -120,8 +120,19 @@ h3 {
   font-family: cursive;
   font-size: 2.0em;
   text-align: center;
-  color:#81BF0C;
+  color:$limegreen;
 }
+
+h5 {
+  font-family: serif;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  color:$limegreen;
+}
+
 
 p {
   font-size: 1.1em;
@@ -187,12 +198,21 @@ div.container {
 div.bulletpoint_1 {
   font-family: fantasy;
   text-align: center;
-  color: #81BF0C;
+  color: $limegreen;
   &:hover { 
-    color: #FDD400;
+    color: $yellow;
     text-decoration: none;
  }
  }
+
+div.contact_form {
+  text-align: center;
+
+}
+
+div.field {
+  color:$limegreen;
+}
 
 /* footer */
 
