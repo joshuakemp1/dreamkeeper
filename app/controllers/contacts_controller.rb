@@ -42,16 +42,20 @@ class ContactsController < ApplicationController
   def create
     @contact = Contact.new(params[:contact])
 
+    if @contact.save
+
     respond_to do |format|
       if @contact.save
-        format.html { redirect_to @contact, notice: 'Contact was successfully created.' }
+        format.html { redirect_to @contact, notice: 'Your message has been sent to Dream Keeper Farms!' }
         format.json { render json: @contact, status: :created, location: @contact }
+        ContactMailer.contact_us(@contact).deliver
       else
         format.html { render action: "new" }
         format.json { render json: @contact.errors, status: :unprocessable_entity }
       end
     end
   end
+end
 
   # PUT /contacts/1
   # PUT /contacts/1.json

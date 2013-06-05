@@ -149,8 +149,11 @@ div.logo {
 
 
 div.navbar-inner {
-  
 
+.container {
+  margin-right: 3%;
+}
+  
 
  }
 #logo_please{
@@ -165,7 +168,8 @@ div.navbar-inner {
 }
 
 #logo-nav {
-   
+
+  font-size: 1.2em;
   font-family: fantasy; 
   position: static;
   color: $green;
