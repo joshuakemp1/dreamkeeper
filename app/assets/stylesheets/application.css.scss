@@ -38,11 +38,31 @@ div.all_images {
    } 
 }
 
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px black;
+  -webkit-box-shadow: 3px 3px 5px 6px black;
+  box-shadow:         3px 3px 5px 6px black;
+}
+
+div.goat_image {
+
+ img {
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    -webkit-box-shadow: 3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;
+    border-radius: 100px;
+    margin-right: 20%;
+    margin-left: 23%;
+  } 
+}
 
 div.home_image {
-  
-  img {
-    border-radius: 20px;
+
+ img {
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    -webkit-box-shadow: 3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;
+    border-radius: 100px;
     margin-right: 32%;
     margin-left: 8%;
   } 
@@ -53,7 +73,7 @@ html {
 }
 
 body {
-  background-color: #262626;
+  background-color: #5E5A5B;
   padding-top: 60px;
 }
 
@@ -99,8 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: $limegreen;
-  font-family: cursive;
+  color: black;
+  font-family: fantasy;
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
@@ -113,14 +133,16 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $green;
+  color: black;
 }
 
 h3 {
-  font-family: cursive;
+  font-family: fantasy;
+  line-height: 1.5em;
+  letter-spacing: -1px;
   font-size: 2.0em;
   text-align: center;
-  color:$limegreen;
+  color:black;
 }
 
 h5 {
@@ -130,14 +152,17 @@ h5 {
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
-  color:$limegreen;
+  color:black;
 }
 
 
 p {
+  color: black;
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
+
 
 
 /* header */
