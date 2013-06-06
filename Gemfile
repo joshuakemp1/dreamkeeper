@@ -17,7 +17,7 @@ group :assets do
   gem "better_errors", "~> 0.9.0"
   gem "binding_of_caller", "~> 0.7.1"
   gem "bootstrap-sass", "~> 2.3.1.3"
- 
+
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -32,7 +32,7 @@ group :test do
 gem 'sqlite3'
 end
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
