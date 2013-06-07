@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link  href='http://fonts.googleapis.com/css?family=Raleway' rel="stylesheet" type="text/css" >
+
   <title>Dream Keeper Farm</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-   <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+ 
 </head>
 
 <body>
   <div class="sign_in_form">
-    <%= link_to "Admin", new_user_path %>
+    <%= link_to "Admin Sign Up", new_user_path %>or
+    <%= link_to "Admin Log In", new_session_path %>
   </div>
 
 <br></br>

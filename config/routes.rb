@@ -1,11 +1,14 @@
 Dreamkeeper::Application.routes.draw do
+ 
+
   resources :users
   resources :contacts
+  resources :sessions
 
 
   root :to => 'pages#home'
 
-  get 'admin', to: "users#new", as: "admin"
+  get 'user', to: "users#new", as: "user"
   get 'login', to: "sessions#new", as: "login"
   get 'logout', to: "sessions#destroy", as: "logout"
 

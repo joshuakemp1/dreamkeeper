@@ -73,6 +73,7 @@ html {
 }
 
 body {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
   background-color: #5E5A5B;
   padding-top: 60px;
 }
@@ -120,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   color: black;
-  font-family: fantasy;
+  font-family: "Raleway";
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 30px;
@@ -128,6 +129,7 @@ h1 {
 }
 
 h2 {
+  font-family: "Raleway";
   font-size: 1.7em;
   letter-spacing: -1px;
   margin-bottom: 30px;
@@ -137,7 +139,7 @@ h2 {
 }
 
 h3 {
-  font-family: fantasy;
+  font-family: "Raleway";
   line-height: 1.5em;
   letter-spacing: -1px;
   font-size: 2.0em;
@@ -146,7 +148,7 @@ h3 {
 }
 
 h5 {
-  font-family: serif;
+  font-family: "Raleway";
   font-size: 1.1em;
   line-height: 1.3em;
   text-align: center;
@@ -157,6 +159,7 @@ h5 {
 
 
 p {
+  font-family: "Raleway";
   color: black;
   font-size: 1.1em;
   line-height: 1.7em;
@@ -176,7 +179,7 @@ div.logo {
 div.navbar-inner {
 
 .container {
-  margin-right: 3%;
+  
 }
   
 
@@ -193,9 +196,10 @@ div.navbar-inner {
 }
 
 #logo-nav {
-
+  padding-right: 25px;
+  padding-left: 25px;
   font-size: 1.2em;
-  font-family: fantasy; 
+  font-family: "Raleway"; 
   position: static;
   color: $green;
   &:hover {
@@ -225,7 +229,7 @@ div.container {
 }
 
 div.bulletpoint_1 {
-  font-family: fantasy;
+  font-family: "Raleway";
   text-align: center;
   color: $limegreen;
   &:hover { 
