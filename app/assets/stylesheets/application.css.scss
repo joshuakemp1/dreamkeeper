@@ -295,6 +295,15 @@ div.field {
 
 /* footer */
 
+div.sign_in_form {
+  font-family: "Raleway";
+  color: black;
+   &:hover {
+  color: $green;
+  text-decoration: none;
+}
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
