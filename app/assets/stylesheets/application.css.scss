@@ -18,6 +18,7 @@
 
 /* mixins, variables, etc. */
 
+$eggyoke:      #FFFF00;
 $red:         #c00;
 $green:       #76B700;
 $white:       #fff;
@@ -198,14 +199,14 @@ div.navbar-inner {
 }
 
 #logo-nav {
-  padding-right: 10%;
-  padding-left:45%; 
+  padding-right:4em ;
+  padding-left:2em; 
   font-size: 1.2em;
   font-family: "Raleway"; 
   position: static;
   color: $green;
   &:hover {
-  color: #E3FA0A;
+  color: $eggyoke;
   text-decoration: none;
 }
 }
@@ -231,9 +232,9 @@ div.navbar-inner {
 div.bulletpoint_1 {
   font-family: "Raleway";
   text-align: center;
-  color: $limegreen;
+  color: $green;
   &:hover { 
-    color: $yellow;
+    color: $eggyoke;
     text-decoration: none;
  }
  }
@@ -263,6 +264,11 @@ footer {
   }  
   small { 
     float: left; 
+  }
+
+  li {
+    font-family: cursive;
+    color: $yellow;
   }
 
   ul {
