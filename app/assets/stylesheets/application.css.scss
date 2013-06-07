@@ -157,6 +157,15 @@ h5 {
   color:black;
 }
 
+a {
+  font-family: "Raleway";
+  color: black;
+   &:hover {
+  color: $green;
+  text-decoration: none;
+}
+}
+
 
 p {
   font-family: "Raleway";
@@ -177,27 +186,20 @@ div.logo {
 
 
 div.navbar-inner {
-
-.container {
-  
-}
-  
-
+ 
  }
+
 #logo_please{
   margin-right:20%;
   margin-left:20%;
   margin-top: 5%; 
   border-radius: 10em;
-
-
-
  
 }
 
 #logo-nav {
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 10%;
+  padding-left:45%; 
   font-size: 1.2em;
   font-family: "Raleway"; 
   position: static;
@@ -224,9 +226,7 @@ div.navbar-inner {
   }
 }
 
-div.container {
 
-}
 
 div.bulletpoint_1 {
   font-family: "Raleway";
@@ -244,7 +244,8 @@ div.contact_form {
 }
 
 div.field {
-  color:$limegreen;
+  color: $green;
+  font-family: "Raleway";
 }
 
 /* footer */
